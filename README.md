@@ -15,7 +15,12 @@ Just clone or download zip for now ...
 
 Assuming you have [node](https://nodejs.org), [npm](https://www.npmjs.com), [bower](http://bower.io) and [gulp](http://gulpjs.com) installed
 
-After the repo is downloaded, to start, run `npm install`, `bower install`, and then `gulp` for serving and syncing
+### To Start
+After the repo is downloaded, to start, run 
+
+1. `npm install`
+2. `bower install`
+3. lastly, `gulp`to start serving and syncing
 
 Default browser should automactically open and go to `http://localhost:3000`. To view it on other machines, see the External URLs in the console messages once server is up.
 
