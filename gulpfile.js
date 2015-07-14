@@ -2,10 +2,12 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var stylus = require('gulp-stylus');
 var jade = require('gulp-jade');
+var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('stylus', function() {
   return gulp.src('./src/style.styl')
     .pipe(stylus())
+    .pipe(autoprefixer())
     .pipe(gulp.dest('./dist/'))
     .pipe(browserSync.stream());
 });
